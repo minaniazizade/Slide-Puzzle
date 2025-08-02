@@ -1,2 +1,2 @@
-# Slide-Puzzle
+# 🧩Slide-Puzzle
 This is Slide Puzzle game project...
