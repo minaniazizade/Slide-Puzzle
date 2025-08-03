@@ -65,11 +65,6 @@ while Game_Play:
         if block is not None:
             break
 
-    if block is None:
-        print('Number not found in the puzzle. Try again!')
-        continue
-
-
     if (empty_space == (block[0] - 1, block[1]) or 
         empty_space == (block[0] + 1, block[1]) or 
         empty_space == (block[0], block[1] - 1) or 
@@ -82,4 +77,3 @@ while Game_Play:
         print(f'\n You have made {move} moves so far\n')
     else:
         print('Invalid move, try again!')
-
